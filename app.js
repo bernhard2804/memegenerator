@@ -12,12 +12,12 @@ submitBtn.addEventListener("click", function(event){
   createMeme();
 })
 
-clearBtn.addEventListener("click", function(event){
+/* clearBtn.addEventListener("click", function(event){
     event.preventDefault();
     inputURL.value = '';
     inputTop.value = '';
     inputBottom.value = '';
-  })
+  }) */
 
 function createMeme(){
     let meme = document.createElement('div');
